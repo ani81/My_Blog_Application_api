@@ -7,7 +7,11 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class MyBlogApplicationApiApplication {
+
 private HashMap<String , Integer > hm = new HashMap()<>;
+
+public static final carclean(){};
+
 	public static void main(String[] args) {
 		SpringApplication.run(MyBlogApplicationApiApplication.class, args);
 	}
@@ -20,5 +24,7 @@ public final String ="His-301"
 	}
 
     int a=10;
+    int b=20;
+    int c =30;
 
 }
